@@ -1,0 +1,70 @@
+/* ==========================
+   STYLE.CSS
+   ========================== */
+
+/* --- General Page Setup --- */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- About Section --- */
+.about {
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, 193, 7, 0.2);
+}
+
+/* --- Headings --- */
+.m-heading {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* --- Paragraph Styling --- */
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* --- Buttons --- */
+.btn-outline-warning {
+    border-width: 2px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #000;
+    transform: scale(1.05);
+}
+
+/* --- Responsive Image --- */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* --- Responsive Behavior --- */
+@media (max-width: 768px) {
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .m-heading {
+        font-size: 2rem;
+    }
+
+    .about {
+        padding: 30px 15px;
+    }
+}
