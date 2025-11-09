@@ -1,8 +1,15 @@
 /* General page styling */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color: #1d1f35;
   color: white;
   font-family: 'Baloo Tamma 2', cursive;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Headings */
@@ -10,11 +17,18 @@ body {
   font-weight: 700;
 }
 
-/* Section styling */
-#social-media {
-  background-color: #1d1f35;
+/* Main content area takes up all available space */
+main {
+  flex: 1;
   text-align: center;
+  padding: 80px 0;
+}
+
+/* Footer pinned at bottom */
+footer {
+  background-color: #1d1f35;
   padding: 60px 0;
+  text-align: center;
 }
 
 /* Buttons */
