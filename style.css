@@ -1,0 +1,56 @@
+/* General page styling */
+body {
+  background-color: #1d1f35;
+  color: white;
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+/* Headings */
+.m-heading {
+  font-weight: 700;
+}
+
+/* Section styling */
+#social-media {
+  background-color: #1d1f35;
+  text-align: center;
+  padding: 60px 0;
+}
+
+/* Buttons */
+.media_link {
+  border: 2px solid #f5c518;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.media_link:hover {
+  background-color: #f5c518;
+  color: #1d1f35;
+  text-decoration: none;
+}
+
+/* Email button color */
+.bg-warning {
+  color: #1d1f35 !important;
+  border: none;
+}
+
+/* Icons */
+.fab, .fas {
+  margin-left: 8px;
+  color: inherit;
+}
+
+/* Hover effect for icons */
+.media_link:hover .fab,
+.media_link:hover .fas {
+  color: #1d1f35;
+}

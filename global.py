@@ -21,7 +21,7 @@ print (b)
 print ("radhika")
 print (b,"radhika")
 """
-class dog():
+''' class dog():
     def __init__(self,name,age):
         self.name = name
         self.age = age
@@ -34,4 +34,7 @@ print(my_dog.name)
 print(my_dog.bark())
 
 my_dog2= dog("max",4)
-print(my_dog2.name)
+print(my_dog2.name)''' 
+
+a = a.lower(input("Gimme a boolean:"))
+print (type(a))
