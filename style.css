@@ -1,4 +1,4 @@
-/* General page styling */
+/* General page layout */
 html, body {
   height: 100%;
   margin: 0;
@@ -17,18 +17,22 @@ body {
   font-weight: 700;
 }
 
-/* Main content area takes up all available space */
+/* Main section */
 main {
   flex: 1;
   text-align: center;
   padding: 80px 0;
 }
 
-/* Footer pinned at bottom */
+/* Footer base */
 footer {
   background-color: #1d1f35;
-  padding: 60px 0;
   text-align: center;
+}
+
+/* Social media section */
+#social-media {
+  padding: 60px 0;
 }
 
 /* Buttons */
@@ -51,7 +55,7 @@ footer {
   text-decoration: none;
 }
 
-/* Email button color */
+/* Email button */
 .bg-warning {
   color: #1d1f35 !important;
   border: none;
@@ -67,4 +71,17 @@ footer {
 .media_link:hover .fab,
 .media_link:hover .fas {
   color: #1d1f35;
+}
+
+/* 🔴 ADD THESE LINES FOR COPYRIGHT BAR */
+.footer-bottom {
+  background-color: #222;
+  color: #aaa;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.footer-bottom span {
+  color: #f5c518;
+  font-weight: 600;
 }
